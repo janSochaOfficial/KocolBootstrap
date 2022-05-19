@@ -1,0 +1,44 @@
+.vh-90{
+    height: 90vh;
+}
+.vh-10{
+    height: 10vh;
+}
+.h-90{
+    height: 90%;
+}
+.h-10{
+    height: 10%;
+}
+.stick-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.stick-right{
+    position: fixed;
+    bottom: calc(50% - 50px);
+    right: 2rem;
+}
+.stick-left{
+    position: fixed;
+    bottom: calc(50% - 50px);
+    left: 2rem;
+}
+.left-12{
+    left: 12.5%;
+}
+.back-btn{
+    font-size: 4em;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.5s;
+}
+.back-btn:hover{
+    transform: scale(1.1);
+}
+@media screen and (min-width: 768px){
+    .text-md-large{
+        font-size: 1.5em;
+    }
+}

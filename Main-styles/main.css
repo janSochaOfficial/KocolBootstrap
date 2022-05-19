@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(113, 44, 249);
+    background: linear-gradient(
+      90deg,
+      rgba(113, 44, 249, 1) 35%,
+      rgba(76, 11, 206, 1) 76%
+    );
+    padding: 0 10vw;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.8vw 1.2vw;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: inherit;
+    background-color: rgb(137, 29, 232);
+  }

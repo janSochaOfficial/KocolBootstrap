@@ -50,7 +50,7 @@ body {
   align-items: center;
   transition: 0.5s;
 }
-.left,
+.left:hover,
 .right:hover {
   transform: scaleX(1.2) scaleY(1.2);
 }
