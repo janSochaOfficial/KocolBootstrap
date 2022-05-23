@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - Elemęty</title>
+    <link rel="stylesheet" href="../../Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/nav-styles.css">
+    <script src="../../Bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="../../" class="logo"><img src="../img/logo.png" alt="logo" /></a>
+            </li>
+            <li><a href="../../Bootstrap - Info/">O Bootstrapie</a></li>
+            <li><a href="../../Bootstrap - Grid/Grid-Pages/Grid-1.html">Grid</a></li>
+            <li><a href="../">Elementy</a></li>
+            <li style="float: right"><a class="active" href="">Zadanie</a></li>
+        </ul>
+    </nav>
+    <div class="container vw-100 vh-90 gap-0">
+        <div class="row w-100 justify-content-center h-25">
+            <h2 class="col-12 col-md-10 col-xl-8 text-center mt-5 h-10">Slidery (karuzele)</h2>
+        </div>
+        <div class="row">
+          <div class="carousel-dark carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/gradient.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/gradient2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Tytuł slidu</h5>
+                  <p>Do Slidów można dodawać tytuły i podtytuły</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../img/gradient3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+              
+        </div>
+
+    </div>
+    <div> 
+        <a href="04.html" class="stick-left back-btn">&#129172;</a>
+        <a href="06.html" class="stick-right back-btn">&#129174;</a>
+    </div>
+</body>
+
+</html>

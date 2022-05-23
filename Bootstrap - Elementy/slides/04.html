@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - Elemęty</title>
+    <link rel="stylesheet" href="../../Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/nav-styles.css">
+    <script src="../Bootstrap/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="../../" class="logo"><img src="../img/logo.png" alt="logo" /></a>
+            </li>
+            <li><a href="../../Bootstrap - Info/">O Bootstrapie</a></li>
+            <li><a href="../../Bootstrap - Grid/Grid-Pages/Grid-1.html">Grid</a></li>
+            <li><a href="../">Elementy</a></li>
+            <li style="float: right"><a class="active" href="">Zadanie</a></li>
+        </ul>
+    </nav>
+    <div class="container vw-100 vh-90 gap-0">
+        <div class="row w-100 justify-content-center h-25">
+            <h2 class="col-12 col-md-10 col-xl-8 text-center mt-5 h-10">Implemetacja formularzy</h2>
+        </div>
+        <div class="row mt-md-5 text-center">
+            <div class="col-12 col-md-10 offset-md-1 text-md-large">Aby dodać stylowanie bootstrap do imputu tekstowego należy dodać do niego klasę "form-control". Analogicznie do select używamy klasy "form-select". Do dodawania check-box'ów używamy klasy "form-check-input", a do labeli dodajemy klasę "form-check-label"</div>
+        </div>
+        <div class="row m-4">
+            <div class="col-12 text-center text-md-large">
+                Teraz spróbuj dodać taki formularz do strony:
+            </div>
+            <div class="form row justify-content-center mt-4 ">
+                <div class="col-8 d-flex row border border-2 border-dark br-1 p-3">
+                    <div class="col-6">
+                        <label for="name" class="form-label">Imię</label>
+                        <input type="text" name="name" id="" placeholder="np. Jan" class="form-control">
+                    </div>
+                    <div class="col-6">
+                        <label for="surname" class="form-label">Nazwisko</label>
+                        <input type="text" name="surname" id="" placeholder="np. Kowalski" class="form-control">
+                    </div>
+                    <div class="col-8 mt-2">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" name="emial" id="" placeholder="jan.kowalski@gmail.com" class="form-control">
+                    </div>
+                    <div class="col-4 mt-2">
+                        <label for="exsel" class="form-label">Wybierz płeć</label>
+                        <select class="form-select" name="exsel">
+                            <option selected>Wole nie mówić</option>
+                            <option value="1">Mężczyzna</option>
+                            <option value="2">Kobieta</option>
+                            <option value="3">Nie-binarny</option>
+                            <option value="4">Helikopter(Śmigłowiec) bojowy</option>
+                        </select>
+                    </div>
+                    <div class="col-6 mt-3">
+                        <input type="checkbox" name="excheck" id="" class="form-check-input">
+                        <label for="excheck" class="form-check-label">Sprzedaje swoją dusze</label>
+                    </div>
+                    <div class="w-100"></div>
+                    <button type="submit" class="col-4 offset-4 btn btn-success mt-2">Potwierdź</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div> 
+        <a href="03.html" class="stick-left back-btn">&#129172;</a>
+        <a href="05.html" class="stick-right back-btn">&#129174;</a>
+    </div>
+</body>
+
+</html>
