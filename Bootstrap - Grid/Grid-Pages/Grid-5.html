@@ -1,82 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grid-1</title>
-    <link rel="stylesheet" href="../Grid-Styles/Grid-Styles-Five.css" />
-    <link rel="stylesheet" href="../Grid-Styles/nav-styles.css" />
-    <link rel="stylesheet" href="../Grid-Styles/colors.css" />
-    <link rel="stylesheet" href="../Grid-Styles/global.css" />
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li>
-          <img src="../Grid-Images/logo.png" alt="logo" class="logo" />
-        </li>
-        <li><a href="">O Bootstrapie</a></li>
-        <li><a href="">Grid</a></li>
-        <li><a href="">Elementy</a></li>
-        <li style="float: right"><a class="active" href="">Zadanie</a></li>
-      </ul>
-    </nav>
-    <fieldset>
-      <legend>Brakepointy</legend>
-      <p class="secP">
-        By rozwiązać ten problem bootstrap stosuje podział na 5 szerokości
-        ekranów które z angielskiego nazywamy <strong>brakepointami</strong>.
-      </p>
-      <table>
-        <tr>
-          <th>Breakpoint</th>
-          <th>Prefix</th>
-          <th>Szerokość</th>
-        </tr>
 
-        <tr>
-          <td>Extra small</td>
-          <td><em>None</em></td>
-          <td>&lt;576px</td>
-        </tr>
-        <tr>
-          <td>Small</td>
-          <td><code>sm</code></td>
-          <td>≥576px</td>
-        </tr>
-        <tr>
-          <td>Medium</td>
-          <td><code>md</code></td>
-          <td>≥768px</td>
-        </tr>
-        <tr>
-          <td>Large</td>
-          <td><code>lg</code></td>
-          <td>≥992px</td>
-        </tr>
-        <tr>
-          <td>Extra large</td>
-          <td><code>xl</code></td>
-          <td>≥1200px</td>
-        </tr>
-        <tr>
-          <td>Extra extra large</td>
-          <td><code>xxl</code></td>
-          <td>≥1400px</td>
-        </tr>
-      </table>
-      <p class="secP">
-        Na podstawie prefixów danego brakepoina czyli szerokości ekranu będziemy
-        tworzyli klasy dla naszych diwów czyli:<br />
-        class= "<span style="color: var(--violet)">col-sm-6</span>"<br /><br />
-        Zapis ten będzie oznaczał, że na ekranie o szerokości od 576px do 768px
-        nasz div będzie zajmował 6/12 siatki czyli połowe ekranu.
-      </p>
-    </fieldset>
-    <a href="Grid-4.html" class="left"> <p class="sticky">&#129172;</p> </a>
-    <a href="../../" class="right"> <p class="sticky">&#129174;</p> </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grid-1</title>
+  <link rel="stylesheet" href="../Grid-Styles/Grid-Styles-Five.css" />
+  <link rel="stylesheet" href="../Grid-Styles/nav-styles.css" />
+  <link rel="stylesheet" href="../Grid-Styles/colors.css" />
+  <link rel="stylesheet" href="../Grid-Styles/global.css" />
+</head>
 
-    <script src="../Grid-Bootstrap-Scripts/Scripts-One.js"></script>
-  </body>
+<body>
+  <nav>
+    <ul>
+      <li>
+        <img src="../Grid-Images/logo.png" alt="logo" class="logo" />
+      </li>
+      <li><a href="">O Bootstrapie</a></li>
+      <li><a href="">Grid</a></li>
+      <li><a href="">Elementy</a></li>
+      <li style="float: right"><a class="active" href="">Zadanie</a></li>
+    </ul>
+  </nav>
+  <div class="sztuczny-nav"></div>
+  <fieldset>
+    <legend>Brakepointy</legend>
+    <p class="secP">
+      By rozwiązać ten problem bootstrap stosuje podział na 5 szerokości
+      ekranów które z angielskiego nazywamy <strong>brakepointami</strong>.
+    </p>
+    <table>
+      <tr>
+        <th>Breakpoint</th>
+        <th>Prefix</th>
+        <th>Szerokość</th>
+      </tr>
+
+      <tr>
+        <td>Extra small</td>
+        <td><em>None</em></td>
+        <td>&lt;576px</td>
+      </tr>
+      <tr>
+        <td>Small</td>
+        <td><code>sm</code></td>
+        <td>≥576px</td>
+      </tr>
+      <tr>
+        <td>Medium</td>
+        <td><code>md</code></td>
+        <td>≥768px</td>
+      </tr>
+      <tr>
+        <td>Large</td>
+        <td><code>lg</code></td>
+        <td>≥992px</td>
+      </tr>
+      <tr>
+        <td>Extra large</td>
+        <td><code>xl</code></td>
+        <td>≥1200px</td>
+      </tr>
+      <tr>
+        <td>Extra extra large</td>
+        <td><code>xxl</code></td>
+        <td>≥1400px</td>
+      </tr>
+    </table>
+    <p class="secP">
+      Na podstawie prefixów danego brakepoina czyli szerokości ekranu będziemy
+      tworzyli klasy dla naszych diwów czyli:<br />
+      class= "<span style="color: var(--violet)">col-sm-6</span>"<br /><br />
+      Zapis ten będzie oznaczał, że na ekranie o szerokości od 576px do 768px
+      nasz div będzie zajmował 6/12 siatki czyli połowe ekranu.
+    </p>
+  </fieldset>
+  <a href="Grid-4.html" class="left">
+    <p class="sticky">&#129172;</p>
+  </a>
+  <a href="Grid-6.html" class="right">
+    <p class="sticky">&#129174;</p>
+  </a>
+
+  <script src="../Grid-Bootstrap-Scripts/Scripts-One.js"></script>
+</body>
+
 </html>

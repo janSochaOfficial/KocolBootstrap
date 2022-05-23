@@ -1,64 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grid-1</title>
-    <link rel="stylesheet" href="../Grid-Styles/Grid-Styles-Four.css" />
-    <link rel="stylesheet" href="../Grid-Styles/nav-styles.css" />
-    <link rel="stylesheet" href="../Grid-Styles/colors.css" />
-    <link rel="stylesheet" href="../Grid-Styles/global.css" />
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li>
-          <img src="../Grid-Images/logo.png" alt="logo" class="logo" />
-        </li>
-        <li><a href="">O Bootstrapie</a></li>
-        <li><a href="">Grid</a></li>
-        <li><a href="">Elementy</a></li>
-        <li style="float: right"><a class="active" href="">Zadanie</a></li>
-      </ul>
-    </nav>
-    <fieldset>
-      <legend>Klasy na różne urządzenia</legend>
-      <p class="secP">
-        Czyli by rezponsywność działała musimy ustawić klasy tak my działały
-        zarówno na ekranach kompóteróww jak i telefonów. Czyli uproszczając
-        potrzebujemy coś typu tego zapisu:<br />
-        class= "<span style="color: var(--violet)"
-          >col-komputer-4 col-smartfon-12</span
-        >"
-      </p>
-      <div class="container">
-        <div class="monitor">
-          <div class="kwadrat">col-4</div>
-          <div class="kwadrat">col-4</div>
-          <div class="kwadrat">col-4</div>
-          <div class="kwadrat">col-4</div>
-          <div class="kwadrat">col-4</div>
-          <div class="kwadrat">col-4</div>
-        </div>
-        <div class="telefon">
-          <div class="kwadrat2">col-12</div>
-          <div class="kwadrat2">col-12</div>
-          <div class="kwadrat2">col-12</div>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grid-1</title>
+  <link rel="stylesheet" href="../Grid-Styles/Grid-Styles-Four.css" />
+  <link rel="stylesheet" href="../Grid-Styles/nav-styles.css" />
+  <link rel="stylesheet" href="../Grid-Styles/colors.css" />
+  <link rel="stylesheet" href="../Grid-Styles/global.css" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>
+        <img src="../Grid-Images/logo.png" alt="logo" class="logo" />
+      </li>
+      <li><a href="">O Bootstrapie</a></li>
+      <li><a href="">Grid</a></li>
+      <li><a href="">Elementy</a></li>
+      <li style="float: right"><a class="active" href="">Zadanie</a></li>
+    </ul>
+  </nav>
+  <div class="sztuczny-nav"></div>
+  <fieldset>
+    <legend>Klasy na różne urządzenia</legend>
+    <p class="secP">
+      Czyli by rezponsywność działała musimy ustawić klasy tak my działały
+      zarówno na ekranach kompóteróww jak i telefonów. Czyli uproszczając
+      potrzebujemy coś typu tego zapisu:<br />
+      class= "<span style="color: var(--violet)">col-komputer-4 col-smartfon-12</span>"
+    </p>
+    <div class="container">
+      <div class="monitor">
+        <div class="kwadrat">col-4</div>
+        <div class="kwadrat">col-4</div>
+        <div class="kwadrat">col-4</div>
+        <div class="kwadrat">col-4</div>
+        <div class="kwadrat">col-4</div>
+        <div class="kwadrat">col-4</div>
       </div>
+      <div class="telefon">
+        <div class="kwadrat2">col-12</div>
+        <div class="kwadrat2">col-12</div>
+        <div class="kwadrat2">col-12</div>
+      </div>
+    </div>
 
-      <p class="secP">
-        Oczywiście było by to bardzo niepraktyczne gdyż jeden z elementów musiał
-        by mieć ogromy ciąg klas np:<br />
-        class= "<span style="color: var(--violet)"
-          >col-telewizor-3 col-komputer-4 col-tablet-6 col-smartfon-12</span
-        >"
-      </p>
-    </fieldset>
-    <a href="Grid-3.html" class="left"> <p class="sticky">&#129172;</p> </a>
-    <a href="Grid-5.html" class="right"> <p class="sticky">&#129174;</p> </a>
+    <p class="secP">
+      Oczywiście było by to bardzo niepraktyczne gdyż jeden z elementów musiał
+      by mieć ogromy ciąg klas np:<br />
+      class= "<span style="color: var(--violet)">col-telewizor-3 col-komputer-4 col-tablet-6 col-smartfon-12</span>"
+    </p>
+  </fieldset>
+  <a href="Grid-3.html" class="left">
+    <p class="sticky">&#129172;</p>
+  </a>
+  <a href="Grid-5.html" class="right">
+    <p class="sticky">&#129174;</p>
+  </a>
 
-    <script src="../Grid-Bootstrap-Scripts/Scripts-One.js"></script>
-  </body>
+  <script src="../Grid-Bootstrap-Scripts/Scripts-One.js"></script>
+</body>
+
 </html>

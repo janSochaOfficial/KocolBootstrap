@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid-1</title>
+    <link rel="stylesheet" href="../Grid-Styles/Grid-Styles-Five.css" />
+    <link rel="stylesheet" href="../Grid-Styles/nav-styles.css" />
+    <link rel="stylesheet" href="../Grid-Styles/colors.css" />
+    <link rel="stylesheet" href="../Grid-Styles/global.css" />
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <img src="../Grid-Images/logo.png" alt="logo" class="logo" />
+        </li>
+        <li><a href="">O Bootstrapie</a></li>
+        <li><a href="">Grid</a></li>
+        <li><a href="">Elementy</a></li>
+        <li style="float: right"><a class="active" href="">Zadanie</a></li>
+      </ul>
+    </nav>
+    <div class="sztuczny-nav"></div>
+    <fieldset>
+      <legend>Skalowanie klas</legend>
+      <p class="secP">
+        W bootstrapie rozwiązane jest to w następujący sposób:<br />
+        class= "<span style="color: var(--violet)">col-sm-6</span>" - Oznacza
+        zarówno zajmij połowe szerokości w rozmiarze small oraz w każdym
+        większym od niego.
+      </p>
+      <p class="secP">
+        Dotego w najmniejszym widoku czyli
+        <span style="color: var(--violet)">extra small</span> kolumny siatki
+        automatycznie ustawiają sie pionowo zajmując domyślnie całą szerkokość
+        ekranu (12/12)
+      </p>
+      <p class="secP">
+        Dięki tym usprawnienią zapis: <br />
+        class= "<span style="color: var(--violet)"
+          >col-xxl-6 col-xl-6 col-md-6 col-sm-6 col-12</span
+        >"<br />
+        <span style="font-size: 5vw; color: var(--light-violet)"
+          >&#11015;&#65039;</span
+        ><br />
+        Otrzymujemy: class= "<span style="color: var(--violet)">col-sm-6</span>"
+      </p>
+    </fieldset>
+    <a href="Grid-6.html" class="left">
+      <p class="sticky">&#129172;</p>
+    </a>
+    <a href="Grid-8.html" class="right">
+      <p class="sticky">&#129174;</p>
+    </a>
+
+    <script src="../Grid-Bootstrap-Scripts/Scripts-One.js"></script>
+  </body>
+</html>

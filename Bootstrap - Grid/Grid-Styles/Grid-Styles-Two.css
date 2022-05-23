@@ -10,7 +10,7 @@
 }
 .column {
   padding-top: 1vw;
-  font-size: 3.5rem;
+  font-size: 5vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,6 +18,7 @@
   height: 60vh;
   margin: 1vw;
   margin-left: 0vw;
+  color: var(--text-color-white);
   border: 1px solid black;
   background-color: var(--violet);
 }
@@ -29,13 +30,13 @@
   align-items: center;
   color: black;
   font-size: 1.5vw;
-  height: 7.5vh;
+  height: 6.5vh;
   margin-top: 1vh;
   z-index: 10;
   display: none;
 }
 .sztuczny {
-  height: 7.5vh;
+  height: 6.5vh;
   margin-top: 1vh;
 }
 .one {

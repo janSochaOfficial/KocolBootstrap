@@ -1,0 +1,9 @@
+.imgPrzyklad {
+  background-image: url(../Grid-Images/przyklad.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35vh;
+  width: 55vw;
+  margin-bottom: 0.5vw;
+}

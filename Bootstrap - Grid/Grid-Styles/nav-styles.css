@@ -9,9 +9,10 @@ ul {
   background: rgb(113, 44, 249);
   background: linear-gradient(
     90deg,
-    rgba(113, 44, 249, 1) 35%,
-    rgba(76, 11, 206, 1) 76%
+    rgba(113, 44, 249, 1) 45%,
+    rgba(76, 11, 206, 1) 56%
   );
+  box-shadow: 2px 2px 6px 0 black;
 }
 
 li {
@@ -20,9 +21,9 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: rgb(254, 239, 255);
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5vw;
   padding: 0.8vw 1.2vw;
   text-decoration: none;
 }
@@ -34,14 +35,15 @@ li a:hover {
   margin-top: 0.4vw;
   margin-right: 1vw;
   margin-left: 2vw;
-  width: 80px;
-  height: 60px;
+  width: 4.8vw;
+  height: 3.6vw;
 }
 li .logo {
   display: block;
   color: black;
   text-align: center;
-  font-size: 2rem;
-
   text-decoration: none;
+}
+.sztuczny-nav{
+  height:5vh;
 }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid-1</title>
+    <link rel="stylesheet" href="../Grid-Styles/Grid-Styles-Eight.css" />
+    <link rel="stylesheet" href="../Grid-Styles/nav-styles.css" />
+    <link rel="stylesheet" href="../Grid-Styles/colors.css" />
+    <link rel="stylesheet" href="../Grid-Styles/global.css" />
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <img src="../Grid-Images/logo.png" alt="logo" class="logo" />
+        </li>
+        <li><a href="">O Bootstrapie</a></li>
+        <li><a href="">Grid</a></li>
+        <li><a href="">Elementy</a></li>
+        <li style="float: right"><a class="active" href="">Zadanie</a></li>
+      </ul>
+    </nav>
+    <div class="sztuczny-nav"></div>
+    <fieldset>
+      <legend>Przykład</legend>
+      <p class="secP">
+        Czyli dla przykładu zapis: <br />
+        class= "<span style="color: var(--violet)">col-sm-6 col-md-4</span>"
+      </p>
+      <div class="imgPrzyklad"></div>
+      <p class="secP">
+        Oznacza że: <br />
+        Dla <span style="color: var(--violet)">extra small</span> kolumny
+        zajmują całość ekranu (12/12) <br />
+        Dla <span style="color: var(--violet)">small</span> kolumny zajmują pół
+        ekranu (6/12) <br />
+        Dla <span style="color: var(--violet)">medium i wyżej</span> kolumny
+        zajmują 1/3 ekranu (4/12)
+      </p>
+    </fieldset>
+    <a href="Grid-7.html" class="left">
+      <p class="sticky">&#129172;</p>
+    </a>
+    <a href="Grid-9.html" class="right">
+      <p class="sticky">&#129174;</p>
+    </a>
+
+    <script src="../Grid-Bootstrap-Scripts/Scripts-One.js"></script>
+  </body>
+</html>
