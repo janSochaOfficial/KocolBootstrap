@@ -10,6 +10,7 @@ ul {
     rgba(113, 44, 249, 1) 35%,
     rgba(76, 11, 206, 1) 76%
   );
+  box-shadow: 2px 2px 6px 0 black;
 }
 
 li {
