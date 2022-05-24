@@ -37,7 +37,7 @@ li a:hover {
   margin-right: 1vw;
   margin-left: 2vw;
   width: 4.8vw;
-  height: 3.6vw;
+  height: 2.8vw;
   cursor: pointer;
 }
 li .logo {
@@ -45,7 +45,6 @@ li .logo {
   text-align: center;
   text-decoration: none;
   width: min-content;
-  height: 72px;
 }
 .sztuczny-nav {
   height: 5vh;
