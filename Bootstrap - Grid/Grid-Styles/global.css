@@ -16,14 +16,13 @@ body {
   width: max-content;
   height: min-content;
   position: absolute;
-  bottom: 2vw;
-  right: 4vw;
+  bottom: calc(50% - 12rem);
+  right: 2rem;
   z-index: 10;
   cursor: pointer;
   text-decoration: none;
   color: black;
   font-size: 12rem;
-
   display: flex;
   padding: 0;
   display: flex;
@@ -36,8 +35,8 @@ body {
   width: min-content;
   height: min-content;
   position: absolute;
-  bottom: 4vw;
-  left: 4vw;
+  bottom: calc(50% - 12rem);
+  left: 2rem;
   z-index: 10;
   cursor: pointer;
   text-decoration: none;

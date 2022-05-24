@@ -31,19 +31,25 @@ li a {
 li a:hover {
   background-color: rgb(137, 29, 232);
 }
+
 .logo {
   margin-top: 0.4vw;
   margin-right: 1vw;
   margin-left: 2vw;
   width: 4.8vw;
   height: 3.6vw;
+  cursor: pointer;
 }
 li .logo {
   display: block;
-  color: black;
   text-align: center;
   text-decoration: none;
+  width: min-content;
+  height: 72px;
 }
-.sztuczny-nav{
-  height:5vh;
+.sztuczny-nav {
+  height: 5vh;
+}
+li.logo:hover {
+  background-color: rgb(137, 29, 232);
 }

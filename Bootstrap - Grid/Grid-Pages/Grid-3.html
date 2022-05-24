@@ -1,61 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid-1</title>
+    <link rel="stylesheet" href="../Grid-Styles/Grid-Styles-Three.css" />
+    <link rel="stylesheet" href="../Grid-Styles/nav-styles.css" />
+    <link rel="stylesheet" href="../Grid-Styles/colors.css" />
+    <link rel="stylesheet" href="../Grid-Styles/global.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Grid-1</title>
-  <link rel="stylesheet" href="../Grid-Styles/Grid-Styles-Three.css" />
-  <link rel="stylesheet" href="../Grid-Styles/nav-styles.css" />
-  <link rel="stylesheet" href="../Grid-Styles/colors.css" />
-  <link rel="stylesheet" href="../Grid-Styles/global.css" />
-</head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="../../"
+            ><img src="../Grid-Images/logo.png" alt="logo" class="logo"
+          /></a>
+        </li>
+        <li><a href="../../Bootstrap - Info/">O Bootstrapie</a></li>
+        <li>
+          <a href="../../Bootstrap - Grid/Grid-Pages/Grid-1.html">Grid</a>
+        </li>
+        <li><a href="../../Bootstrap - Elementy/">Elementy</a></li>
+        <li style="float: right"><a class="active" href="">Zadanie</a></li>
+      </ul>
+    </nav>
+    <div class="sztuczny-nav"></div>
+    <fieldset>
+      <legend>Klasy i Rezponsywność</legend>
+      <p class="secP">
+        By mieć możliwość urzywania siatki i elementów bootstrapa używamy
+        <span style="color: var(--violet)"
+          ><strong>klas wbudowanych w tego frameworka. </strong></span
+        >
+        Czyli by podzielić strone na trzy kolumny wystarczy stworzyć 3 divy z
+        klasą zajmującą 1/3 szerokości strony.
+      </p>
+      <div class="monitor">
+        <div class="kwadrat">col-4</div>
+        <div class="kwadrat">col-4</div>
+        <div class="kwadrat">col-4</div>
+        <div class="kwadrat">col-4</div>
+        <div class="kwadrat">col-4</div>
+        <div class="kwadrat">col-4</div>
+      </div>
+      <p class="secP">
+        Układ ten jest idealny dla np. monitora komputera. Problem pojawi sie
+        jednak jeśli chcielibyśmy otworzyć tą strone na telefonie. Podział na 3
+        kolumny na ekranach smartwonów jest mało czytelny a nam chodzi przecież
+        o dostosowanie naszej strony na wszystkie urządzenia.
+      </p>
+    </fieldset>
+    <a href="Grid-2.html" class="left">
+      <p class="sticky">&#129172;</p>
+    </a>
+    <a href="Grid-4.html" class="right">
+      <p class="sticky">&#129174;</p>
+    </a>
 
-<body>
-  <nav>
-    <ul>
-      <li>
-        <img src="../Grid-Images/logo.png" alt="logo" class="logo" />
-      </li>
-      <li><a href="">O Bootstrapie</a></li>
-      <li><a href="">Grid</a></li>
-      <li><a href="">Elementy</a></li>
-      <li style="float: right"><a class="active" href="">Zadanie</a></li>
-    </ul>
-  </nav>
-  <div class="sztuczny-nav"></div>
-  <fieldset>
-    <legend>Klasy i Rezponsywność</legend>
-    <p class="secP">
-      By mieć możliwość urzywania siatki i elementów bootstrapa używamy
-      <span style="color: var(--violet)"><strong>klas wbudowanych w tego frameworka. </strong></span>
-      Czyli by podzielić strone na trzy kolumny wystarczy stworzyć 3 divy z
-      klasą zajmującą 1/3 szerokości strony.
-    </p>
-    <div class="monitor">
-      <div class="kwadrat">col-4</div>
-      <div class="kwadrat">col-4</div>
-      <div class="kwadrat">col-4</div>
-      <div class="kwadrat">col-4</div>
-      <div class="kwadrat">col-4</div>
-      <div class="kwadrat">col-4</div>
-    </div>
-    <p class="secP">
-      Układ ten jest idealny dla np. monitora komputera. Problem pojawi sie
-      jednak jeśli chcielibyśmy otworzyć tą strone na telefonie. Podział na 3
-      kolumny na ekranach smartwonów jest mało czytelny a nam chodzi przecież
-      o dostosowanie naszej strony na wszystkie urządzenia.
-    </p>
-  </fieldset>
-  <a href="Grid-2.html" class="left">
-    <p class="sticky">&#129172;</p>
-  </a>
-  <a href="Grid-4.html" class="right">
-    <p class="sticky">&#129174;</p>
-  </a>
-
-  <script src="../Grid-Bootstrap-Scripts/Scripts-One.js"></script>
-</body>
-
+    <script src="../Grid-Bootstrap-Scripts/Scripts-One.js"></script>
+  </body>
 </html>
