@@ -3,17 +3,17 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  row-gap: 1vw;
+  row-gap: 0.5vw;
   border: 10px solid black;
   margin: 1vw;
-  width: 66vw;
-  height: 47vh;
+  width: 60vw;
+  height: 37vh;
 }
 .kwadrat {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20vw;
-  height: 20vh;
+  width: 18vw;
+  height: 15vh;
   border: 6px solid var(--light-violet);
 }
