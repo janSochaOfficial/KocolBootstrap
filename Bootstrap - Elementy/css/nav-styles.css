@@ -19,17 +19,17 @@ li {
 
 li:not(:first-child) a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5vw;
   padding: 0.8vw 1.2vw;
   text-decoration: none;
 }
 li a{
   display: block;
-  color: black;
+  color: white;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5vw;
   text-decoration: none;
 }
 
@@ -40,8 +40,8 @@ li a:hover {
   margin-top: 0.4vw;
   margin-right: 1vw;
   margin-left: 2vw;
-  width: 80px;
-  height: 60px;
+  width: 4.8vw;
+  height: 3.6vw;
 }
 li .logo {
   display: block;

@@ -17,33 +17,35 @@
 }
 .stick-right{
     position: fixed;
-    bottom: calc(50% - 50px);
+    bottom: calc(50% - 10rem);
     right: 2rem;
 }
 .stick-left{
     position: fixed;
-    bottom: calc(50% - 50px);
+    bottom: calc(50% - 10rem);
     left: 2rem;
 }
 .left-12{
     left: 12.5%;
 }
 .back-btn{
-    font-size: 4em;
+    font-size: 12rem;
     text-decoration: none;
     color: inherit;
     transition: all 0.5s;
 }
 .back-btn:hover{
     transform: scale(1.1);
+    color: inherit;
 }
 .br-1{
     border-radius: 1rem;
 }
 .carousel-item img{
-    width: 100%;
     height: 500px;
+    width: 100%;
 }
+
 @media screen and (min-width: 768px){
     .text-md-large{
         font-size: 1.5em;
